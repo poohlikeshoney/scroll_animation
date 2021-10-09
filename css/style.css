@@ -1,1 +1,86 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+
+/* -------------------RESET------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #111;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #111;
+}
+img {
+  vertical-align: top;
+}
+em {
+  font-style: normal;
+}
+.hidden {
+  display: none;
+}
+
+/* -------------------HEADER slogan------------------- */
+header {
+  height: 80px;
+  line-height: 80px;
+  background: #242424;
+  text-align: center;
+}
+header .logo a {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+header .logo a em {
+  font-weight: bold;
+}
+.slogan {
+  background: #ddd;
+  padding: 100px 0;
+}
+.slogan h2 {
+  font-size: 48px;
+  line-height: 1;
+}
+.slogan p {
+  font-size: 28px;
+  line-height: 36px;
+  margin: 24px 0 40px;
+}
+.slogan a {
+  display: inline-block;
+  background: dodgerblue;
+  color: #fff;
+  font-size: 28px;
+  height: 72px;
+  line-height: 72px;
+  padding: 0 62px;
+  border-radius: 4px;
+}
+/* -------------------testimonial------------------- */
+.testimonial {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 50px 0;
+}
+.testimonial blockquote {
+  line-height: 28px;
+}
+.testimonial blockquote p {
+  font-size: 18px;
+}
+.testimonial blockquote small {
+  font-weight: 600;
+  font-style: italic;
+}
