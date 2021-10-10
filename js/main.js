@@ -5,6 +5,9 @@ $(function(){
   let $features = $('.features');
   let $featuresOffsetTop = $features.offset().top - 400;
 
+  let $location = $('.location');
+  let $locationOffsetTop = $location.offset().top - 400;
+
   $(window).scroll(function(){
     // device section animation
     if($(this).scrollTop() > $deviceOffsetTop){
@@ -14,6 +17,10 @@ $(function(){
     if($(this).scrollTop() > $featuresOffsetTop){
       $features.find('img').addClass('grow-img');
       $features.find('h4').addClass('animate');
+    }
+    // location section animation
+    if($(this).scrollTop() > $locationOffsetTop){
+      $location.find('.stripe').addClass('animate-down');
     }
   });
 });
