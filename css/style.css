@@ -135,6 +135,7 @@ header .logo a em {
   font-size: 28px;
   margin-top: 14px;
   text-transform: uppercase;
+  opacity: 0;
 }
 .features .item img {
   width: 0;
